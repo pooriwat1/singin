@@ -1,0 +1,16 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+
+	int c;
+	cout<<"Enter Celsius = ";
+	cin>>c;
+	float f;
+	f=1.8*c+32;
+	cout<<"Temp in Celsius = "<<c<<endl;
+	cout<<"Temp in Fahrenheit = "<<f<<endl;
+	cout<<"Temp is  " <<((f<=86)? " Cool " : " Hot ")<<endl;
+	return(0);
+}
